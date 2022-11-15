@@ -13,9 +13,9 @@ function App() {
       <main>
         <h3>Flashcards</h3>
         <div className="gridContainer">
-          < CardPreview term="What does a duck say?"/>
-          < CardPreview term="What does a dog say?"/>
-          < CardPreview term="What does a cow say?"/>
+          < CardPreview definition="quack" term="What does a duck say?"/>
+          < CardPreview definition="woof" term="What does a dog say?"/>
+          < CardPreview definition="moo" term="What does a cow say?"/>
 
         </div>
       </main>
